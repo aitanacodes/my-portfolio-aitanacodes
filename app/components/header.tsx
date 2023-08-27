@@ -27,7 +27,7 @@ export const Header = ({ name, pages }) => {
         priority
         height={400}
         width={2000}
-        className=""
+        className="w-full h-48 object-cover object-top absolute mb-6"
         src="/images/header-pic.jpg"
         alt={`Image of ${name}`}
         aria-label={`Image of ${name}`}
