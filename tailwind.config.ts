@@ -46,7 +46,7 @@ const config: Config = {
         footer: "0px -7px 41px rgba(175, 175, 175, 0.25)",
        },
        backgroundImage: {
-        hedaer: "linear-gradient(98.85deg, #557AFF 7.8%, rbga(239, 252, 255, 0) 100%)",
+        header: "linear-gradient(98.85deg, #557AFF 7.8%, rbga(239, 252, 255, 0) 100%)",
        },
        spacing: {
         "8xl": "96rem",

@@ -1,5 +1,8 @@
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
+import { aboutMeData, pages } from "./data/data";
+
+import "./global.css";
 
 export const metadata = {
   title: "Next.js",
@@ -14,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
+        <Header name={aboutMeData.name} pages={pages} />
         {children}
         <Footer />
       </body>
