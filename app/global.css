@@ -15,11 +15,47 @@
   h1 {
     @apply text-3xl;
   }
+  h2 {
+    @apply text-2xl uppercase text-black font-semibold mb-6;
+  }
 }
 
 .icons_contactme {
   @apply text-2xl sm:text-3xl;
   @apply text-lilacdarker;
-  @apply hover:text-lilacnormal;
   @apply transition-colors ease-in-out duration-500;
+}
+
+.icons_contactme:hover {
+  @apply text-lilacnormal;
+}
+
+.profileImage {
+  @apply rounded-l-2xl;
+  @apply shadow-lg;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 4%;
+}
+
+.profileImage:hover {
+  @apply grayscale;
+}
+
+section {
+  @apply mb-10;
+}
+
+.body2_image {
+  @apply rounded-r-2xl;
+  @apply shadow-lg;
+  @apply mb-10;
+  @layer h-250;
+  @apply object-cover;
+  @layer w-500;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 4%;
 }
