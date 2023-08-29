@@ -1,5 +1,6 @@
 import { title } from "process";
 import MyProjects from "../my-projects/page";
+import { Github } from "../icons";
 export const pages = [
   {
     id: 1,
@@ -67,3 +68,5 @@ export const projects = [
     ],
   },
 ];
+
+export const contactMeLinks = ["linkedin", "github"];
