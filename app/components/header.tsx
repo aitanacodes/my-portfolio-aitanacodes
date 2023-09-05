@@ -13,9 +13,9 @@ type HeaderProps = {
 
 export const Header = ({ name, pages }: HeaderProps) => {
   return (
-    <header className="flex flex-col relative bg-linear-557AFF w-full h-48">
+    <header className="flex flex-col relative bg-linear-557AFF w-full h-60 sm:h-48">
       <div className="bg-header flex flex-col justify-around h-full px-6 z-10">
-        <nav className="text-right flex flex-row gap-6 self-end">
+        <nav className="text-center sm:text-right flex flex-col sm:flex-row sm:gap-6 gap-2 mt-8 self-end">
           {pages.map((page) => {
             return (
               <Link
@@ -24,19 +24,18 @@ export const Header = ({ name, pages }: HeaderProps) => {
                 href={page.link}
                 className="mt-2 px-6 py-2 min-w-100 bg-lilacmid rounded-lg shadow-lg  hover:bg-lilaclight hover:text-lilacnormal transition ease-in-out duration-500 font-display uppercase tracking-wide"
               >
-                {" "}
-                {page.label}{" "}
+                {page.label}
               </Link>
             );
           })}
         </nav>
-        <h1 className="text-light uppercase"> {name}</h1>
+        <h1 className="text-light uppercase mb-7"> {name}</h1>
       </div>
       <Image
         priority
         height={400}
         width={2000}
-        className="w-full h-48 object-cover object-top absolute mb-6"
+        className="w-full h-60 object-cover object-top absolute mb-6 sm:h-48"
         src="/images/header-pic.jpg"
         alt={`Image of ${name}`}
         aria-label={`Image of ${name}`}

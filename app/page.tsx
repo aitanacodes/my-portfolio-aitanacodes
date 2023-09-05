@@ -4,9 +4,9 @@ import { aboutMeData } from "./data/data";
 
 const AboutMePage = () => {
   return (
-    <main className="flex flex-col items-center m-32">
-      <section className="flex sm:flex-row w-10/12 mt-10 mb-6 items-center flex-col">
-        <div className="sm:w-1/3 w-full">
+    <main className="flex flex-col items-center sm:mb-32 mb-16">
+      <section className="flex sm:flex-row sm:w-10/12 items-center flex-col">
+        <div className="sm:w-1/3 w-full flex justify-center mt-12">
           <Image
             priority={false}
             width={640}
@@ -17,19 +17,19 @@ const AboutMePage = () => {
             className="profileImage"
           />
         </div>
-        <div className="ml-20 sm:w-2/3 w-full">
+        <div className="sm:ml-20 sm:mt-0 sm:w-2/3 w-full mt-6 ml-0 p-10">
           <h2 className="">{aboutMeData.title}</h2>
           <p className="text-base">{aboutMeData.body}</p>
         </div>
       </section>
-      <section className="w-full my-8 bg-lilaclight p-10 h-full">
+      <section className="w-full bg-lilaclight p-10 mx-auto">
         <p>{aboutMeData.highlightedBody}</p>
       </section>
-      <section className="flex flex-row w-10/12 mt-10 items-center">
-        <div className="flex flex-col w-7/12">
+      <section className="flex sm:flex-row sm:w-10/12 p-10 items-center w-full flex-col">
+        <div className="flex flex-col w-full sm:w-7/12 mb-10 sm:mb-0">
           <p>{aboutMeData.body2}</p>
         </div>
-        <div className="w-5/12 ml-10">
+        <div className="sm:w-5/12 sm:ml-10 w-full ml-0">
           <Image
             priority={false}
             width={500}
@@ -37,7 +37,7 @@ const AboutMePage = () => {
             aria-label={"dog-3277416_640"}
             alt={"dog-3277416_640"}
             src={"/images/dog-3277416_640.jpg"}
-            className="body2_image"
+            className="body_image"
           />
         </div>
       </section>

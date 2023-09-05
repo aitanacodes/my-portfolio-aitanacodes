@@ -31,31 +31,45 @@
 }
 
 .profileImage {
-  @apply rounded-l-2xl;
-  @apply shadow-lg;
-  width: auto;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 4%;
+  @apply sm:rounded-l-3xl 
+  rounded-md 
+  shadow-lg 
+  w-auto 
+  h-full 
+  object-cover 
+  object-center 
+  sm:object-top 
+  sm:w-48 
+  sm:h-48;
 }
 
 .profileImage:hover {
   @apply grayscale;
 }
 
-section {
-  @apply mb-10;
+@media (min-width: 640px) {
+  .profileImage {
+    @apply: rounded-md;
+  }
+
+  .profileImage:hover {
+    @apply grayscale;
+  }
 }
 
-.body2_image {
-  @apply rounded-r-2xl;
-  @apply shadow-lg;
-  @apply mb-10;
-  @layer h-250;
-  @apply object-cover;
-  @layer w-500;
-  width: auto;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 4%;
+section {
+  @apply sm:mb-10 mb-5;
+}
+
+.body_image {
+  @apply sm:rounded-r-3xl 
+  rounded-md 
+  shadow-lg 
+  w-auto 
+  h-full 
+  object-cover 
+  object-center 
+  sm:object-top 
+  sm:w-48 
+  sm:h-48;
 }
