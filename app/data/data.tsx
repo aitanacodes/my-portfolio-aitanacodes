@@ -20,11 +20,11 @@ export const pages = [
 ];
 
 export const aboutMeData = {
-  name: "Aitana Hernández",
+  name: "aitanacodes",
   title: "Hola! Soy Aitana Hernández",
-  body: "Nisl vitae aliquam ultricies, nunc nisl aliquet nunc, nunc nisl aliquet nunc, vitae aliquam lit nisl vitae elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam elit nisl vitae elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam elit nisl vitae elit.",
-  highlightedBody:
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies,nisl vitae enisl vitae elit.",
+  body: "Tras años de experiencia como técnica informática, he decidido enfocar mi carrera hacia el desarrollo de software. Estoy muy emocionada por esta transición y me esfuerzo diariamente en aprender y mejorar mis habilidades",
+  titleStack: "Mi Stack principal es:",
+  myStack: "JavaScript, TypeScript, REACT, HTML, CSS",
   body2:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies,nisl vitae enisl vitae elit",
 };
