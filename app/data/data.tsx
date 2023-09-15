@@ -17,6 +17,16 @@ export const pages = [
     label: "Contacto",
     link: "/contact-me",
   },
+  {
+    id: 4,
+    label: "GitHub",
+    link: "/",
+  },
+  {
+    id: 5,
+    label: "LinkedIn",
+    link: "/",
+  },
 ];
 
 export const aboutMeData = {

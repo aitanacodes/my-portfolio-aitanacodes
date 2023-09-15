@@ -10,7 +10,10 @@ import IconCSS from "./icons/iconCSS";
 const AboutMePage = () => {
   return (
     <main className="flex flex-col items-center sm:mb-32 mb-16">
-      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
+      <section
+        className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight pb-12 shadow-lg rounded-lg mt-5
+       flex flex-col sm:flex-row"
+      >
         <div className="sm:w-1/3 w-full flex justify-center mt-12">
           <Image
             priority={false}
@@ -22,7 +25,7 @@ const AboutMePage = () => {
             className="profileImage"
           />
         </div>
-        <div className="sm:ml-20 sm:mt-0 sm:w-2/3 w-full mt-6 ml-0 p-10">
+        <div className="sm:w-2/3 w-full mt-6 ml-0 p-10">
           <h2 className="">{aboutMeData.title}</h2>
           <p className="text-base">{aboutMeData.body}</p>
         </div>

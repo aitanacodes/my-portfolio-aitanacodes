@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 export const ProjectCard = ({ data }) => {
-  const { title, description, githubLink, websiteLink } = data;
+  const { title, body1, githubLink, websiteLink } = data;
   return (
     <div>
       <Image
@@ -11,11 +11,12 @@ export const ProjectCard = ({ data }) => {
         height={250}
         aria-label={`Image of ${title}`}
         alt={"dog-3277416_640"}
+        className="object-cover w-full h-48"
         src={"/images/dog-3277416_640.jpg"}
       />
       <div>
-        <h3 className="text-lg font-medium">Project Title</h3>
-        <p className="text-sm mt-2 min-h-50">Project description 1</p>
+        <h3 className="text-lg font-medium">{title}</h3>
+        <p className="text-sm mt-2 min-h-50">{body1}</p>
         <p className="text-sm mt-2 min-h-50">Project description 2</p>
         <div className="flex flex-row mt-4 justify-between">
           <a href={" "} className="flex items-center">

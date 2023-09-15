@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #a16df6
+  ); /* Cambia #A16DF6 al color lila pastel que prefieras */
+}
+
 @layer base {
   h1,
   h2,
@@ -39,8 +47,8 @@
   object-cover 
   object-center 
   sm:object-top 
-  sm:w-48 
-  sm:h-48;
+  sm:w-60
+  sm:h-60;
 }
 
 .profileImage:hover {
