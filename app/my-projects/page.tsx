@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "../data/data";
+import { ProjectCard } from "./components/project-card";
 
 const MyProjects = () => {
   return (
@@ -7,7 +8,7 @@ const MyProjects = () => {
       <h2 className="text-2xl font-bold mb-4">My projects</h2>
       <div className="flex flex-row flex-wrap gap-10 mt-6">
         {projects.map((project) => {
-          return <p>{project.title}</p>;
+          return <ProjectCard data={projects} />;
         })}
       </div>
     </div>

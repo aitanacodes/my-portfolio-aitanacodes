@@ -30,7 +30,7 @@ body {
 
 .icons_contactme {
   @apply text-2xl sm:text-3xl;
-  @apply text-lilacdarker;
+  @apply text-lilacmid;
   @apply transition-colors ease-in-out duration-500;
 }
 

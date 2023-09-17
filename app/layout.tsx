@@ -17,9 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header name={aboutMeData.name} pages={pages} />
+        <Header
+          name={aboutMeData.name}
+          pages={pages}
+          contactMeLinks={contactMeLinks}
+        />
         {children}
-        <Footer contactMeLinks={contactMeLinks} />
+        <Footer />
       </body>
     </html>
   );

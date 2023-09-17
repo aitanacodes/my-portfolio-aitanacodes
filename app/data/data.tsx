@@ -17,17 +17,30 @@ export const pages = [
     label: "Contacto",
     link: "/contact-me",
   },
-  {
-    id: 4,
-    label: "GitHub",
-    link: "/",
-  },
-  {
-    id: 5,
-    label: "LinkedIn",
-    link: "/",
-  },
+  // {
+  //   id: 4,
+  //   label: "GitHub",
+  //   link: "/",
+  // },
+  // {
+  //   id: 5,
+  //   label: "LinkedIn",
+  //   link: "/",
+  // },
 ];
+
+// export const linkContact = [
+//   {
+//     id: 1,
+//     label: "GitHub",
+//     link: "/",
+//   },
+//   {
+//     id: 2,
+//     label: "LinkedIn",
+//     link: "/",
+//   },
+// ];
 
 export const aboutMeData = {
   name: "aitanacodes",
@@ -46,7 +59,7 @@ export const contactMeDText = {
 
 export const projects = [
   {
-    title: "Proyecto 1",
+    title: "Proyecto Pajarito",
     body1: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
     body2: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
     image: "https://picsum.photos/200/300",
@@ -62,7 +75,7 @@ export const projects = [
     ],
   },
   {
-    title: "Proyecto 2",
+    title: "Proyecto Rinoceronte",
     body1: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
     body2: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
     image: "https://picsum.photos/200/300",
@@ -79,4 +92,4 @@ export const projects = [
   },
 ];
 
-export const contactMeLinks = ["linkedin", "github"];
+export const contactMeLinks = ["linkedinsss", "github"];

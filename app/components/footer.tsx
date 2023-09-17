@@ -14,14 +14,14 @@ export const Footer = ({ contactMeLinks }: FooterProps) => {
           Made with ❤️ by Aitana Hernández © 2023
         </p>
 
-        <div className="flex gap-3">
+        {/* <div className="flex gap-3">
           <a href={contactMeLinks[0]} aria-label="GitHub">
             <Github className="icons_contactme" />
           </a>
           <a href={contactMeLinks[1]} aria-label="LinkedIn">
             <Linkedin className="icons_contactme" />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
