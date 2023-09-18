@@ -34,6 +34,7 @@ export const contactMeText = {
 export const projects = [
   {
     title: "Proyecto 1",
+    id: 1,
     body1:
       "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
     body2: "Technologies used: ",
@@ -51,6 +52,7 @@ export const projects = [
   },
   {
     title: "Proyecto 2",
+    id: 2,
     body1:
       "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
     body2: "Technologies used: ",
