@@ -1,6 +1,3 @@
-import { title } from "process";
-import MyProjects from "../my-projects/page";
-import { Github } from "../icons";
 export const pages = [
   {
     id: 1,
@@ -52,44 +49,46 @@ export const aboutMeData = {
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies,nisl vitae enisl vitae elit",
 };
 
-export const contactMeDText = {
+export const contactMeText = {
   title: "Contacto",
   body: "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 };
 
 export const projects = [
   {
-    title: "Proyecto Pajarito",
-    body1: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
-    body2: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
-    image: "https://picsum.photos/200/300",
+    title: "Personal Finance Tracker",
+    body1:
+      "A web application that allows users to track their income and expenses, categorize transactions, and view reports and charts to gain insights into their spending habits.",
+    body2: "Technologies used: HTML, CSS, JavaScript, and Flask.",
+    image: "luke-chesser-JKUTrJ4vK00-unsplash.jpg",
     links: [
       {
-        text: "Proyecto 1",
-        url: "https://picsum.photos/200/300",
+        text: "Source Code",
+        url: "https://github.com/richardbrown/personal-finance-tracker",
       },
       {
-        text: "Proyecto 1.1",
-        url: "https://picsum.photos/200/300",
+        text: "Live Site",
+        url: "https://personal-finance-tracker.richardbrown.net",
       },
     ],
   },
-  {
-    title: "Proyecto Rinoceronte",
-    body1: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
-    body2: "libero vitae gravida euismod, erat lorem blandit purus, faucibus",
-    image: "https://picsum.photos/200/300",
-    links: [
-      {
-        text: "Proyecto 2",
-        url: "https://picsum.photos/200/300",
-      },
-      {
-        text: "Proyecto 2.1",
-        url: "https://picsum.photos/200/300",
-      },
-    ],
-  },
+  // {
+  //   title: "Movie Recommendation System",
+  //   body1:
+  //     "A machine learning model that recommends movies to users based on their viewing history and preferences.",
+  //   body2: "Technologies used: Python, Pandas, NumPy, and scikit-learn",
+  //   image: "charlesdeluvio-jtmwD4i4v1U-unsplash.png",
+  //   links: [
+  //     {
+  //       text: "Source Code",
+  //       url: "https://github.com/richardbrown/weather-app",
+  //     },
+  //     {
+  //       text: "Live Site",
+  //       url: "https://weather-app.richardbrown.net",
+  //     },
+  //   ],
+  // },
 ];
 
 export const contactMeLinks = ["linkedinsss", "github"];
