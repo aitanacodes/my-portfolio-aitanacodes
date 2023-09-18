@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import { aboutMeData } from "./data/data";
+import { aboutMeData, projects } from "./data/data";
 import JS from "./icons/js";
 import TS from "./icons/ts";
 import IconReact from "./icons/react";
 import IconHtml from "./icons/iconHtml";
 import IconCSS from "./icons/iconCSS";
+import ProjectCard from "./my-projects/components/project-card";
 
 const AboutMePage = () => {
   return (
@@ -45,7 +46,7 @@ const AboutMePage = () => {
         </div>
       </section>
 
-      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
+      {/* <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
         <div className="flex flex-col w-full sm:w-7/12 mb-10 sm:mb-0">
           <p>{aboutMeData.body2}</p>
         </div>
@@ -60,8 +61,18 @@ const AboutMePage = () => {
             className="body_image"
           />
         </div>
+      </section> */}
+
+      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
+        <div className="flex flex-col w-11/12 content-center m-auto mt-10">
+          <h2 className="text-2xl font-bold mb-4">My projects</h2>
+          <div className="flex flex-row flex-wrap gap-10 mt-6">
+            {projects.map((projects) => {
+              return <ProjectCard data={projects} />;
+            })}
+          </div>
+        </div>
       </section>
-      <section></section>
     </div>
   );
 };

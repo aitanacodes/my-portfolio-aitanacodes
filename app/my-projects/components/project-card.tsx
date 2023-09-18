@@ -18,7 +18,7 @@ type ProjectCardProps = {
 export const ProjectCard = ({ data }: ProjectCardProps) => {
   const { title, body1, body2, image, links } = data;
   return (
-    <div className="rounded-lg shadow-lg bg-grey-light w-full sm:w-1/3-g">
+    <div className="rounded-lg shadow-lg bg-grey-light w-full sm:w-1/3-g md:w-1/2 lg:w-1/3 xl:w-1/4">
       <Image
         aria-label={`Image of ${title}`}
         src={`/images/monstera.jpg`}
