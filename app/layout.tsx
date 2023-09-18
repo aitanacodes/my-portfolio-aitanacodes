@@ -22,8 +22,9 @@ export default function RootLayout({
           pages={pages}
           contactMeLinks={contactMeLinks}
         />
-        {children}
-        <Footer />
+        <main className="sm:mb-32 mb-16">{children}</main>
+
+        <Footer contactMeLinks={contactMeLinks} />
       </body>
     </html>
   );

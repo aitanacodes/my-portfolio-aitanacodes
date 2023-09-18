@@ -72,23 +72,23 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   title: "Movie Recommendation System",
-  //   body1:
-  //     "A machine learning model that recommends movies to users based on their viewing history and preferences.",
-  //   body2: "Technologies used: Python, Pandas, NumPy, and scikit-learn",
-  //   image: "charlesdeluvio-jtmwD4i4v1U-unsplash.png",
-  //   links: [
-  //     {
-  //       text: "Source Code",
-  //       url: "https://github.com/richardbrown/weather-app",
-  //     },
-  //     {
-  //       text: "Live Site",
-  //       url: "https://weather-app.richardbrown.net",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Movie Recommendation System",
+    body1:
+      "A machine learning model that recommends movies to users based on their viewing history and preferences.",
+    body2: "Technologies used: Python, Pandas, NumPy, and scikit-learn",
+    image: "charlesdeluvio-jtmwD4i4v1U-unsplash.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/richardbrown/weather-app",
+      },
+      {
+        text: "Live Site",
+        url: "https://weather-app.richardbrown.net",
+      },
+    ],
+  },
 ];
 
 export const contactMeLinks = ["linkedinsss", "github"];

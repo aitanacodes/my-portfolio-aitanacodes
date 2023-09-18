@@ -47,3 +47,5 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
     </div>
   );
 };
+
+export default ProjectCard;

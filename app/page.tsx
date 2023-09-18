@@ -9,7 +9,7 @@ import IconCSS from "./icons/iconCSS";
 
 const AboutMePage = () => {
   return (
-    <main className="flex flex-col items-center sm:mb-32 mb-16">
+    <div className="flex flex-col items-center ">
       <section
         className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight pb-12 shadow-lg rounded-lg mt-5
        flex flex-col sm:flex-row"
@@ -61,7 +61,8 @@ const AboutMePage = () => {
           />
         </div>
       </section>
-    </main>
+      <section></section>
+    </div>
   );
 };
 
