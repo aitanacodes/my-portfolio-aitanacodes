@@ -33,36 +33,36 @@ export const contactMeText = {
 
 export const projects = [
   {
-    title: "Personal Finance Tracker",
+    title: "Proyecto 1",
     body1:
-      "A web application that allows users to track their income and expenses, categorize transactions, and view reports and charts to gain insights into their spending habits.",
-    body2: "Technologies used: HTML, CSS, JavaScript, and Flask.",
-    image: "luke-chesser-JKUTrJ4vK00-unsplash.jpg",
+      "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    body2: "Technologies used: ",
+    image: "monstera.jpg",
     links: [
       {
         text: "Source Code",
-        url: "https://github.com/richardbrown/personal-finance-tracker",
+        url: "https://github.com/",
       },
       {
         text: "Live Site",
-        url: "https://personal-finance-tracker.richardbrown.net",
+        url: "https://github.com/",
       },
     ],
   },
   {
-    title: "Movie Recommendation System",
+    title: "Proyecto 2",
     body1:
-      "A machine learning model that recommends movies to users based on their viewing history and preferences.",
-    body2: "Technologies used: Python, Pandas, NumPy, and scikit-learn",
-    image: "charlesdeluvio-jtmwD4i4v1U-unsplash.png",
+      "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    body2: "Technologies used: ",
+    image: "monstera.jph",
     links: [
       {
         text: "Source Code",
-        url: "https://github.com/richardbrown/weather-app",
+        url: "https://github.com/",
       },
       {
         text: "Live Site",
-        url: "https://weather-app.richardbrown.net",
+        url: "https://github.com/",
       },
     ],
   },
