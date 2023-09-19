@@ -7,6 +7,7 @@ import IconReact from "./icons/react";
 import IconHtml from "./icons/iconHtml";
 import IconCSS from "./icons/iconCSS";
 import ProjectCard from "./my-projects/components/project-card";
+import useScrollToAnchor from "./hooks/useScrollToAnchor";
 
 const AboutMePage = () => {
   return (
@@ -65,7 +66,7 @@ const AboutMePage = () => {
 
       <section
         id="my-projects"
-        className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-gradient-to-r from-lilacdarker p-4 shadow-lg rounded-lg mt-4"
+        className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-gradient-to-r from-lilacdarker p-4 shadow-lg rounded-lg mt-1"
       >
         <div className="w-12/12 m-auto mt-5">
           <h2 className="text-2xlz mb-8 text-center px-6 py-2 min-w-100 bg-lilacmid rounded-lg shadow-lg font-display uppercase tracking-wide">
