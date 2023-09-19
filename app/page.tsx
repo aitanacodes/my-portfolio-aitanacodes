@@ -63,12 +63,14 @@ const AboutMePage = () => {
         </div>
       </section> */}
 
-      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
-        <div className="flex flex-col w-11/12 content-center m-auto mt-10">
-          <h2 className="text-2xl font-bold mb-4">My projects</h2>
-          <div className="flex flex-row flex-wrap gap-10 mt-6">
-            {projects.map((projects) => {
-              return <ProjectCard data={projects} key={projects.id} />;
+      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-gradient-to-r from-lilacdarker p-4 shadow-lg rounded-lg mt-4">
+        <div className="w-12/12 m-auto mt-5">
+          <h2 className="text-2xlz mb-4 text-center px-6 py-2 min-w-100 bg-lilacmid rounded-lg shadow-lg hover:bg-lilaclight hover:text-lilacnormal transition ease-in-out duration-500 font-display uppercase tracking-wide">
+            Mis proyectos
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            {projects.map((project) => {
+              return <ProjectCard data={project} key={project.id} />;
             })}
           </div>
         </div>
