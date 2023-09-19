@@ -26,6 +26,18 @@ export const aboutMeData = {
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies,nisl vitae enisl vitae elit",
 };
 
+export const moreAbout = {
+  soft: [
+    { icon: "💬", text: "Me considero comprensiva y comunicativa" },
+    { icon: "👥", text: "Me encuentro muy cómoda trabajando en equipo" },
+    {
+      icon: "🎨",
+      text: "Soy una persona creativa e intento trabajar mi creatividad día a día",
+    },
+    { icon: "⚡", text: "Fun Fact: me gusta jugar a videojuegos y leer." },
+  ],
+};
+
 export const contactMeText = {
   title: "Contacto",
   body: "posuere sagittis tortor et suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
