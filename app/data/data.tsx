@@ -2,12 +2,12 @@ export const pages = [
   {
     id: 1,
     label: "Sobre mi",
-    link: "/",
+    link: "#about-me",
   },
   {
     id: 2,
     label: "Proyectos",
-    link: "/my-projects",
+    link: "#my-projects",
   },
   {
     id: 3,

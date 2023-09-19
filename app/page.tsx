@@ -10,7 +10,7 @@ import ProjectCard from "./my-projects/components/project-card";
 
 const AboutMePage = () => {
   return (
-    <div className="flex flex-col items-center ">
+    <div id="about-me" className="flex flex-col items-center ">
       <section
         className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight pb-12 shadow-lg rounded-lg mt-5
        flex flex-col sm:flex-row"
@@ -46,26 +46,12 @@ const AboutMePage = () => {
         </div>
       </section>
 
-      {/* <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-lilaclight p-4 shadow-lg rounded-lg mt-4">
-        <div className="flex flex-col w-full sm:w-7/12 mb-10 sm:mb-0">
-          <p>{aboutMeData.body2}</p>
-        </div>
-        <div className="sm:w-5/12 sm:ml-10 w-full ml-0">
-          <Image
-            priority={false}
-            width={500}
-            height={250}
-            aria-label={"dog-3277416_640"}
-            alt={"dog-3277416_640"}
-            src={"/images/dog-3277416_640.jpg"}
-            className="body_image"
-          />
-        </div>
-      </section> */}
-
-      <section className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-gradient-to-r from-lilacdarker p-4 shadow-lg rounded-lg mt-4">
+      <section
+        id="my-projects"
+        className="sm:w-full sm:max-w-screen-xl w-11/12 mx-auto bg-gradient-to-r from-lilacdarker p-4 shadow-lg rounded-lg mt-4"
+      >
         <div className="w-12/12 m-auto mt-5">
-          <h2 className="text-2xlz mb-4 text-center px-6 py-2 min-w-100 bg-lilacmid rounded-lg shadow-lg hover:bg-lilaclight hover:text-lilacnormal transition ease-in-out duration-500 font-display uppercase tracking-wide">
+          <h2 className="text-2xlz mb-8 text-center px-6 py-2 min-w-100 bg-lilacmid rounded-lg shadow-lg font-display uppercase tracking-wide">
             Mis proyectos
           </h2>
           <div className="flex flex-wrap justify-center gap-4">

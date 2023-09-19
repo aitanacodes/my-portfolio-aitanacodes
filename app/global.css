@@ -19,6 +19,7 @@ body {
   }
   html {
     font-family: Merriweather, Proxima Nova, sans-serif;
+    scroll-behavior: smooth;
   }
   h1 {
     @apply text-3xl;
