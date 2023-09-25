@@ -1,6 +1,5 @@
 const useScrollToAnchor = (offset: number = 70) => {
   return (targetAnchor: string) => {
-    console.log("Вызван хук");
     if (!(typeof window === "undefined")) {
       const hash = targetAnchor;
 

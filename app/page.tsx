@@ -42,7 +42,7 @@ const AboutMePage = () => {
               >
                 <span role="img" aria-label="icon">
                   {skill.icon}
-                </span>{" "}
+                </span>
                 {skill.text}
               </p>
             ))}
